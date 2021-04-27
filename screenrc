@@ -16,10 +16,10 @@ caption string "%-Lw%{= bw}%50>%n %t%{-}%+Lw%<"
 shelltitle '$ |shell'
 
 # Set GNU screen command entry character to C-]
-escape ^]^]
+#escape ^]^]
 
 # Two C-] = literal C-]
-escape ^]^]
+#escape ^]^]
 
 defscrollback 2000
 bindkey -k k2 screen
